@@ -10,7 +10,7 @@ const articles = computed(() => data.value.slice(0, 11))
 <template>
     <ZTitle icon="👀">
         <span class="badge-text">来自博客
-            <ZRawLink to="https://blog.zhilu.cyou"><mark>纸鹿摸鱼处</mark></ZRawLink>
+            <ZRawLink to="https://blog.zhilu.cyou"><mark>Xlenco</mark></ZRawLink>
             的文章
         </span>
     </ZTitle>

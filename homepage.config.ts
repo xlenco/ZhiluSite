@@ -1,27 +1,27 @@
 import type { NavGroup } from '~/types/nav'
 
 const author = {
-    name: '纸鹿本鹿',
-    avatar: 'https://wsrv.nl/?url=github.com/L33Z22L11.png',
-    email: 'hi@zhilu.cyou',
-    homepage: 'https://zhilu.cyou',
+    name: 'xlenco',
+    avatar: 'https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=100',
+    email: 'xlenco@email.cn',
+    homepage: 'https://xlenco.top',
 }
 
 export default {
-    title: '纸鹿 (@L33Z22L11)',
-    description: '纸鹿至麓不知路，支炉制露不止漉。',
+    title: 'Xlenco',
+    description: '总有人间一两风，吹我十万八千梦。',
     author,
     language: 'zh-CN',
     timezone: 'Asia/Shanghai',
-    favicon: '/icon.png',
-    url: 'https://zhilu.cyou',
-    blogAtom: 'https://blog.zhilu.cyou/atom.xml',
+    favicon: 'https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=100',
+    url: 'https://xlenco.top',
+    blogAtom: 'https://blog.xlenco.top/atom.xml',
     footer: {
-        copyright: `© ${new Date().getFullYear()} 纸鹿本鹿`,
-        message: 'aka Zhilu, L33Z22L11',
+        copyright: `© ${new Date().getFullYear()} xlenco`,
+        message: 'aka Xlenco',
     },
     imageDomains: [
-        'blog.zhilu.cyou',
+        'blog.xlenco.top',
         // '7.isyangs.cn',
     ],
     injectHeadLinks: [
@@ -35,17 +35,17 @@ export default {
                 { icon: 'ph:pen-nib-duotone', title: '文章', link: '/article' },
                 // { icon: "ph:pen-nib-duotone", title: "文章", link: "https://blog.zhilu.cyou", external: true },
                 // { icon: "ph:code-duotone", title: "项目", link: "/project" },
-                { icon: 'ph:code-duotone', title: '项目', link: 'https://github.com/L33Z22L11/#user-33976233-pinned-items-reorder-form', external: true },
-                { icon: 'ph:globe-duotone', title: '站点', link: '/site' },
-                { icon: 'ph:files-duotone', title: '日志', link: '/log' },
+                // { icon: 'ph:code-duotone', title: '项目', link: 'https://github.com/L33Z22L11/#user-33976233-pinned-items-reorder-form', external: true },
+                // { icon: 'ph:globe-duotone', title: '站点', link: '/site' },
+                // { icon: 'ph:files-duotone', title: '日志', link: '/log' },
             ],
         },
         {
             title: '社交',
             list: [
-                { icon: 'ri:qq-fill', title: '群: 169994096', link: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd', external: true },
-                { icon: 'ph:github-logo-duotone', title: 'Github', link: 'https://github.com/L33Z22L11', external: true },
-                { icon: 'ph:telegram-logo-duotone', title: 'Telegram', link: 'https://t.me/L33Z22L11', external: true },
+                // { icon: 'ri:qq-fill', title: '群: 169994096', link: 'https://jq.qq.com/?_wv=1027&k=lQfNSeEd', external: true },
+                { icon: 'ph:github-logo-duotone', title: 'Github', link: 'https://github.com/xlenco', external: true },
+                // { icon: 'ph:telegram-logo-duotone', title: 'Telegram', link: 'https://t.me/L33Z22L11', external: true },
             ],
         },
     ],

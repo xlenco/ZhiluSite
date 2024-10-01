@@ -1,7 +1,7 @@
 import type { NavGroup } from '~/types/nav'
 
 const author = {
-    name: 'xlenco',
+    name: 'Xlenco',
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1043865083&spec=640&img_type=webp',
     email: 'xlenco@email.cn',
     homepage: 'https://xlenco.top',
